@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <script src="js/db.js"></script>
+
+</head>
+
+<body>
+    <div id="loginContainer">
+        <form action="ResumePage.html" method="GET" id="loginForm" onsubmit="return validateLogin()">
+            <span id="error"></span><br />
+            <input type="username" id="username" name="username" placeholder="UserName" required><br>
+            <input type="password" id="password" name="Password" placeholder="Password" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>

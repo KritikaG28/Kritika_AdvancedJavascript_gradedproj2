@@ -1,0 +1,21 @@
+
+body{
+    background:grey;
+  }
+  
+  #error{
+    color:red;
+  }
+  
+  input{
+    margin:2%;
+  }
+  
+  #loginContainer{
+    background:yellow;
+    text-align: center;
+    margin:auto;
+    width:30%;
+    height:30%;
+    
+  }

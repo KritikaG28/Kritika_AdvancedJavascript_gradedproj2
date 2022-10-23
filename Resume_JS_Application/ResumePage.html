@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Details</title>
+    <link rel="stylesheet" type="text/css" href="css/resume.css">
+</head>
+
+<body>
+    <div id="searchContainer" class="container">
+        <input type="text" id="jobProfileFilter" placeholder="Search for keywords to filter results" />
+        <button type="button" class="button" id="previous">Previous</button>
+        <button type="button" class="button" id="next">Next</button>
+    </div>
+
+
+    <div id="resumeContainer" class="container">
+        <div id="resumeInfo">
+            <div id="resumeHeader">
+                <h1 id="resumeName"></h1>
+                <h2 id="jobProfile"></h2>
+            </div>
+            <div id="right">
+                <img src="./img.png">
+            </div>
+        </div>
+        <div id="allContent">
+            <div id="personalData">
+                <h4>Peronal Information</h4>
+                <p id="phone"></p>
+                <p id="email"></p>
+                <p id="linkedIn"></p>
+
+                <h4>Technical Skills</h4>
+                <p id="skills"></p>
+
+                <h4>Hobbies</h4>
+                <p id="hobbies"></p>
+            </div>
+            <div id="resumeContent">
+                <h3>Work Experience in previous company</h3>
+                <p id="companyName"></p>
+                <p id="position"></p>
+                <p id="startDate"></p>
+                <p id="endDate"></p>
+                <p id="summary"></p>
+
+                <h3>Projects</h3>
+                <p id="project"></p>
+                <h3>Education</h3>
+                <ul>
+                    <li id="ug"></li>
+                    <li id="seniorEdu"></li>
+                    <li id="highSchool"></li>
+                </ul>
+                <h3>Intership</h3>
+                <ul>
+                    <li id="iCompany"></li>
+                    <li id="iPosition"></li>
+                    <li id="iStartDate"></li>
+                    <li id="iEndDate"></li>
+                    <li id="iSummary"></li>
+                </ul>
+                <h3>Achievments</h3>
+                <ul>
+                    <li id="aSummary"></li>
+                </ul>
+                <h3>Location</h3>
+                <ul>
+                    <li id="address"></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="errorContainer" class="container">
+        <h1 id="error"></h1>
+    </div>
+
+</body>
+
+<script type="module" src="js/resume.js"></script>
+
+</html>
